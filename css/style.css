@@ -1,0 +1,58 @@
+body {
+  font-family: "Agdasima", sans-serif;
+  background-color: #21183f;
+  color: #ffffff;
+}
+header {
+  display: flex;
+  justify-content: center;
+}
+
+/* main */
+.select-characters {
+  margin: 40px 150px;
+  display: flex;
+}
+/* section 1 */
+.select-characters .list-characters {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  gap: 10px;
+  justify-content: center;
+}
+.select-characters .title {
+  text-align: center;
+  margin: 5px;
+  border-bottom: 2px solid #4a9485;
+  width: 100%;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+}
+
+.select-characters .list-characters .character img {
+  margin: 10px;
+  border-bottom: 5px solid #4a9485;
+}
+/* section 2 */
+.character-selected {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  flex-wrap: wrap;
+}
+.character-selected .character-main {
+  background-color: #ffffff;
+  margin: 10px;
+  width: 400px;
+}
+.character-selected .character-name {
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 30px;
+  width: 90%;
+  text-align: center;
+  border-bottom: 2px solid #4a9485;
+}
