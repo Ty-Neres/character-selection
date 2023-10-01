@@ -1,17 +1,26 @@
 body {
   font-family: "Agdasima", sans-serif;
-  background-color: #21183f;
+  background-image: url(../src/img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   color: #ffffff;
 }
 header {
   display: flex;
   justify-content: center;
 }
+.logo {
+  border: 10px solid #4a9485b7;
+  border-radius: 20px;
+  padding: 45px 150px;
+  margin: 40px 80px;
+}
 
 /* main */
 .select-characters {
-  margin: 40px 150px;
   display: flex;
+  margin: 40px 150px;
+  padding: 20px 80px;
 }
 /* section 1 */
 .select-characters .list-characters {
@@ -44,9 +53,12 @@ header {
   flex-wrap: wrap;
 }
 .character-selected .character-main {
-  background-color: #ffffff;
-  margin: 10px;
-  width: 400px;
+  background-color: #ffffffe0;
+  border: solid 8px #4a9485b7;
+  border-radius: 20%;
+  margin-bottom: 45px;
+  padding: 80px;
+  width: 70%;
 }
 .character-selected .character-name {
   text-transform: uppercase;
