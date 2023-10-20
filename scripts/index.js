@@ -1,4 +1,4 @@
-const characters = document.querySelectorAll(".character");
+/* const characters = document.querySelectorAll(".character");
 
 characters.forEach((character) => {
   character.addEventListener("mouseenter", () => {
@@ -7,3 +7,6 @@ characters.forEach((character) => {
     characterSelected.classList.remove("selected-action");
   });
 });
+ */
+
+const mouseEvent = document.querySelectorAll(".character");

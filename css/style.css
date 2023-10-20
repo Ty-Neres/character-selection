@@ -1,8 +1,6 @@
 body {
   font-family: "Agdasima", sans-serif;
-  background-image: url(../src/img/background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: #a0a1c4;
   color: #ffffff;
 }
 header {
@@ -10,7 +8,7 @@ header {
   justify-content: center;
 }
 .logo {
-  border: 10px solid #4a9485b7;
+  border: 10px solid #285f8bb7;
   border-radius: 20px;
   padding: 45px 150px;
   margin: 40px 80px;
