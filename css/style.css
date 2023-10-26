@@ -43,7 +43,7 @@ header {
 
 .select-characters .list-characters .character img {
   border-bottom: 8px solid #4a9485;
-  margin-bottom: -5px;
+  margin-bottom: -12px;
 }
 /* section 2 */
 .character-selected {
@@ -74,7 +74,12 @@ header {
   text-align: center;
   border-bottom: 5px solid #4a9485;
 }
-.footer {
+#copyright {
   background-color: black;
   padding: 20px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#copyright a {
+  text-decoration: none;
 }
