@@ -1,12 +1,18 @@
-/* const characters = document.querySelectorAll(".character");
+const chars = document.querySelectorAll(".character");
 
-characters.forEach((character) => {
+chars.forEach((character) => {
   character.addEventListener("mouseenter", () => {
-    character.classList.add("selected-action");
-    const characterSelected = document.querySelector("selected-action");
-    characterSelected.classList.remove("selected-action");
+    const selected = document.querySelector(".select");
+    character.classList.add("select");
+    selected.classList.remove("select");
+
+    const imageSelected = document.querySelector(".character-main");
+
+    const idChars = character.attributes.id.value;
+    console.log(idChars);
+    imageSelected.src = `./src/img/character/character-${idChars}.png`;
+
+    const nameCharacter = document.getElementById("character-name");
+    nameCharacter.innerText = character.getAttribute("data-name");
   });
 });
- */
-
-const mouseEvent = document.querySelectorAll(".character");
