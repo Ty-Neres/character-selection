@@ -1,6 +1,6 @@
 body {
   font-family: "Agdasima", sans-serif;
-  background: #a0a1c4;
+  background-image: linear-gradient(#373a88, #a0a1c4);
   color: #ffffff;
 }
 header {
@@ -33,7 +33,7 @@ header {
 .select-characters .title {
   text-align: center;
   margin: 5px;
-  color: #48719b;
+  color: #241a44;
   text-shadow: 2px 2px 4px #ffffff;
   border-bottom: 4px solid #4a9485;
   width: 100%;
@@ -65,7 +65,7 @@ header {
   max-width: 600px;
 }
 .character-selected #character-name {
-  color: #48719b;
+  color: #241a44;
   text-shadow: 2px 2px 4px #ffffff;
   text-transform: uppercase;
   letter-spacing: 5px;
